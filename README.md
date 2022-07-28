@@ -12,11 +12,9 @@ If you want a dedicated VPC:
 cd cluster
 ```
 
-Configure the AWS access
+Ensure you have your sso configured
 ```
-export AWS_ACCESS_KEY_ID=
-export AWS_SECRET_ACCESS_KEY=
-export AWS_DEFAULT_REGION=
+aws sso login
 ```
 
 Setup configs for terraform
