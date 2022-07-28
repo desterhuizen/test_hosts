@@ -6,10 +6,12 @@ cd test-hosts
 If you want to use the default VPC:
 ```
 cd hosts
+terraform init
 ```
 If you want a dedicated VPC:
 ```
 cd cluster
+terraform init
 ```
 
 Ensure you have your sso configured
